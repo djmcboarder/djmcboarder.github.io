@@ -1,0 +1,116 @@
+
+body {
+  font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35em;
+  margin: 0;
+}
+
+html {
+margin: 0;
+background-color: #a8b2bd;
+}
+
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* nav bar */
+.nav {
+    overflow: hidden;
+    background-color: #ff0000;
+}
+
+/* nav links */
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main */
+.mini {
+	float: left;
+    width: 33.33%;
+    padding: 15px; 
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+ 
+ /* width: 33.33% shifts player to a tall thin box.*/
+.miniframe {
+	float: left;
+    padding: 15px;
+    overflow: hidden;
+}
+
+
+/* This styling below causes player inactive. Formatting in miniframe & mini.
+
+iframe {
+  width: 100%;
+  float: left;
+  margin-right: 10px;
+} 
+*/
+
+
+h3 {
+	color: #34495e;
+}
+
+h4 {
+	color: #34495e;
+	opacity: .75;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 15.4px;
+}
+
+img {
+  width: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.picone {
+  width: 150%;
+}
+.pictwo {
+  width: 150%;
+}
+.picthree {
+  width: 125%;
+}
+
+
+/* 
+ Light Grey #D7DBDD      Dark Grey #34495e
+
+div.main {
+    background-color: #FFFFFF;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+ */

@@ -1,0 +1,71 @@
+/* Kelli McNamara, Yellow Group */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 20px;
+	line-height: 1em;
+	letter-spacing: .02em;
+	font-weight: 400;
+	text-transform: none;
+	font-style: normal;
+	display: block;
+	background-color: #FFFFFF;
+	color:#000000 ;
+}
+
+
+/* main h1, h1, p */
+
+
+
+h4 {
+ text-align: center;
+ text-transform: uppercase;
+}
+
+p {
+    line-height: 1em;
+}
+
+
+/* Images */
+
+img {
+  width: 100%;
+}
+
+/* container section. art is images, text is copy. each in a container */
+
+.art {
+  width: 25%;
+}
+.container .art, .container .text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container {
+
+}
+.text {
+ width: 50%;
+}
+
+/* 
+
+Yellow Team w/ Mary & Kamesha project info:  Topic: Travel
+
+Audience: First time travelers, interested in travel and/or our personal insight.
+
+Pages: page with a destination include information on the destination with personal insights and images.       
+
+Fonts: Benton Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+
+Colors: Page: #FFFFFF    Text: Anchor - #000000, Visited color #0EACBF,  hover  - #D3D0D0
+
+Type: Responsive */
